@@ -1,0 +1,22 @@
+{
+  "WASTEHUNTER.AbilityStr": "Strength",
+  "WASTEHUNTER.AbilityCon": "Constitution",
+  "WASTEHUNTER.AbilityDex": "Dexterity",
+  "WASTEHUNTER.AbilityInt": "Intelligence",
+  "WASTEHUNTER.AbilityWis": "Wisdom",
+  "WASTEHUNTER.AbilityCha": "Charisma",
+
+  "WASTEHUNTER.AbilityStrAbbr": "str",
+  "WASTEHUNTER.AbilityConAbbr": "con",
+  "WASTEHUNTER.AbilityDexAbbr": "dex",
+  "WASTEHUNTER.AbilityIntAbbr": "int",
+  "WASTEHUNTER.AbilityWisAbbr": "wis",
+  "WASTEHUNTER.AbilityChaAbbr": "cha",
+
+  "WASTEHUNTER.EffectCreate": "Create Effect",
+  "WASTEHUNTER.EffectToggle": "Toggle Effect",
+  "WASTEHUNTER.EffectEdit": "Edit Effect",
+  "WASTEHUNTER.EffectDelete": "Delete Effect",
+
+  "WASTEHUNTER.Add": "Add"
+}

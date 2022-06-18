@@ -1,0 +1,2055 @@
+{
+  "name": "Alternative Format2",
+  "type": "_template",
+  "img": "icons/svg/mystery-man.svg",
+  "data": {
+    "hidden": [
+      {
+        "name": "PB",
+        "value": "${floor(2+(LVL/5))}$"
+      },
+      {
+        "name": "Rounder",
+        "value": "${Inches>6 ? 1:0}$"
+      },
+      {
+        "name": "STRmod",
+        "value": "${STR-6}$"
+      },
+      {
+        "name": "PERmod",
+        "value": "${PER-6}$"
+      },
+      {
+        "name": "ENDmod",
+        "value": "${END-6}$"
+      },
+      {
+        "name": "CHAmod",
+        "value": "${CHA-6}$"
+      },
+      {
+        "name": "AGLmod",
+        "value": "${AGL-6}$"
+      },
+      {
+        "name": "LCKmod",
+        "value": "${LCK-6}$"
+      }
+    ],
+    "header": {
+      "contents": [
+        {
+          "key": "LVL",
+          "cssClass": "",
+          "label": "Ascension:",
+          "defaultValue": "1",
+          "size": "m-small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "30",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "STR",
+          "cssClass": "",
+          "label": "STR:",
+          "defaultValue": "6",
+          "size": "small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "${floor(9+(LVL/5))}$",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "PER",
+          "cssClass": "",
+          "label": "PER:",
+          "defaultValue": "6",
+          "size": "small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "${floor(9+(LVL/5))}$",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "END",
+          "cssClass": "",
+          "label": "END:",
+          "defaultValue": "6",
+          "size": "small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "${floor(9+(LVL/5))}$",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "CHA",
+          "cssClass": "",
+          "label": "CHA:",
+          "defaultValue": "6",
+          "size": "small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "${floor(9+(LVL/5))}$",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "AGL",
+          "cssClass": "",
+          "label": "AGL:",
+          "defaultValue": "6",
+          "size": "small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "${floor(9+(LVL/5))}$",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "LCK",
+          "cssClass": "",
+          "label": "LCK:",
+          "defaultValue": "6",
+          "size": "small",
+          "allowDecimal": false,
+          "minVal": "1",
+          "maxVal": "${floor(9+(LVL/5))}$",
+          "allowRelative": false,
+          "showControls": false,
+          "type": "numberField"
+        },
+        {
+          "key": "Information",
+          "cssClass": "Information",
+          "contents": [
+            {
+              "key": "Characteristics",
+              "cssClass": null,
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Biosect:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "Aliases",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "m-large",
+                        "icon": "",
+                        "value": "Aliases:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Aliases2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "DOB",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "medium",
+                        "icon": "",
+                        "value": "Date of Birth:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "DOB2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Age",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Age:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Age2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "BloodType",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Blood Type:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "BloodType2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "options": [
+                          {
+                            "key": "O+",
+                            "value": "O+"
+                          },
+                          {
+                            "key": "O-",
+                            "value": "O-"
+                          },
+                          {
+                            "key": "A+",
+                            "value": "A+"
+                          },
+                          {
+                            "key": "A-",
+                            "value": "A-"
+                          },
+                          {
+                            "key": "B+",
+                            "value": "B+"
+                          },
+                          {
+                            "key": "B-",
+                            "value": "B-"
+                          },
+                          {
+                            "key": "AB+",
+                            "value": "AB+"
+                          },
+                          {
+                            "key": "AB-",
+                            "value": "AB-"
+                          },
+                          {
+                            "key": "NA",
+                            "value": "N/A"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Feet",
+                        "cssClass": "",
+                        "label": "Feet:",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "",
+                        "maxVal": "",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      },
+                      {
+                        "key": "Inches",
+                        "cssClass": "",
+                        "label": "Inches:",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "",
+                        "maxVal": "",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Weight",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Weight:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Weight2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Species",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Species:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Species2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Ethnicity",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Ethnicity:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Ethnicity2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Gender",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Gender:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Gender2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Pronouns",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "m-large",
+                        "icon": "",
+                        "value": "Pronouns:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Pronouns2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Sexuality",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Sexuality:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Sexuality2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "11",
+                  "layout": "rl",
+                  "type": "table"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Resume:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "Education",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Education:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Education2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "WorkExperience",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "x-small",
+                        "icon": "",
+                        "value": "Work Experience:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "WorkExperience2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "2",
+                  "layout": "rl",
+                  "type": "table"
+                },
+                {
+                  "key": "Personality",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Personality:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "PositiveTraits",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Positive Traits:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "PositiveTraits2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "NegativeTraits",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Negative Traits:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "NegativeTraits2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Likes",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Likes:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Likes2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Dislikes",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Dislikes:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Dislikes2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Goals",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "m-large",
+                        "icon": "",
+                        "value": "Goals:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Goals2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Fears",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Fears:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Fears2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Lifestyle",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Lifestyle:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Lifestyle2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "options": [
+                          {
+                            "key": "OutCaste",
+                            "value": "OutCaste ($10/day)"
+                          },
+                          {
+                            "key": "LoCaste",
+                            "value": "LoCaste ($80/day)"
+                          },
+                          {
+                            "key": "MidCaste",
+                            "value": "MidCaste ($150/day)"
+                          },
+                          {
+                            "key": "HiCaste",
+                            "value": "HiCaste ($400/day)"
+                          },
+                          {
+                            "key": "KiCaste",
+                            "value": "KiCaste ($1,000/day)"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Alignment",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Alignment:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Alignment2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "options": [
+                          {
+                            "key": "LG",
+                            "value": "Lawful Good"
+                          },
+                          {
+                            "key": "LN",
+                            "value": "Lawful Neutral"
+                          },
+                          {
+                            "key": "LE",
+                            "value": "Lawful Evil"
+                          },
+                          {
+                            "key": "NG",
+                            "value": "Neutral Good"
+                          },
+                          {
+                            "key": "TN",
+                            "value": "True Neutral"
+                          },
+                          {
+                            "key": "NE",
+                            "value": "Neutral Evil"
+                          },
+                          {
+                            "key": "CG",
+                            "value": "Chaotic Good"
+                          },
+                          {
+                            "key": "CN",
+                            "value": "Chaotic Neutral"
+                          },
+                          {
+                            "key": "CE",
+                            "value": "Chaotic Evil"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Faith",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Faith:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Faith2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-large",
+                        "charList": "",
+                        "maxLength": "",
+                        "type": "textField"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "9",
+                  "layout": "rl",
+                  "type": "table"
+                }
+              ],
+              "name": "Characteristics",
+              "type": "tab"
+            },
+            {
+              "key": "Vitals",
+              "cssClass": null,
+              "contents": [
+                {
+                  "key": "Levelling",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Levelling:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "LevelPower",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Ascension/Power Level:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "AscensionPower",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "large",
+                        "options": [
+                          {
+                            "key": "1",
+                            "value": "Ascension (1) - Power Level (300)"
+                          },
+                          {
+                            "key": "2",
+                            "value": "Ascension (2) - Power Level (700)"
+                          },
+                          {
+                            "key": "3",
+                            "value": "Ascension (3) - Power Level (1200)"
+                          },
+                          {
+                            "key": "4",
+                            "value": "Ascension (4) - Power Level (1800)"
+                          },
+                          {
+                            "key": "5",
+                            "value": "Ascension (5) - Power Level (2500)"
+                          },
+                          {
+                            "key": "6",
+                            "value": "Ascension (6) - Power Level (3300)"
+                          },
+                          {
+                            "key": "7",
+                            "value": "Ascension (7) - Power Level (4200)"
+                          },
+                          {
+                            "key": "8",
+                            "value": "Ascension (8) - Power Level (5200)"
+                          },
+                          {
+                            "key": "9",
+                            "value": "Ascension (9) - Power Level (6300)"
+                          },
+                          {
+                            "key": "10",
+                            "value": "Ascension (10) - Power Level (7500 + 1st Exl.)"
+                          },
+                          {
+                            "key": "11",
+                            "value": "Ascension (11) - Power Level (8800)"
+                          },
+                          {
+                            "key": "12",
+                            "value": "Ascension (12) - Power Level (10200)"
+                          },
+                          {
+                            "key": "13",
+                            "value": "Ascension (13) - Power Level (11700)"
+                          },
+                          {
+                            "key": "14",
+                            "value": "Ascension (14) - Power Level (13300)"
+                          },
+                          {
+                            "key": "15",
+                            "value": "Ascension (15) - Power Level (15000)"
+                          },
+                          {
+                            "key": "16",
+                            "value": "Ascension (16) - Power Level (16800)"
+                          },
+                          {
+                            "key": "17",
+                            "value": "Ascension (17) - Power Level (18700)"
+                          },
+                          {
+                            "key": "18",
+                            "value": "Ascension (18) - Power Level (20700)"
+                          },
+                          {
+                            "key": "19",
+                            "value": "Ascension (19) - Power Level (22800)"
+                          },
+                          {
+                            "key": "20",
+                            "value": "Ascension (20) - Power Level (25000 + 2nd Exl.)"
+                          },
+                          {
+                            "key": "21",
+                            "value": "Ascension (21) - Power Level (27300)"
+                          },
+                          {
+                            "key": "22",
+                            "value": "Ascension (22) - Power Level (29700)"
+                          },
+                          {
+                            "key": "23",
+                            "value": "Ascension (23) - Power Level (32200)"
+                          },
+                          {
+                            "key": "24",
+                            "value": "Ascension (24) - Power Level (34800)"
+                          },
+                          {
+                            "key": "25",
+                            "value": "Ascension (25) - Power Level (37500)"
+                          },
+                          {
+                            "key": "26",
+                            "value": "Ascension (26) - Power Level (40300)"
+                          },
+                          {
+                            "key": "27",
+                            "value": "Ascension (27) - Power Level (43200)"
+                          },
+                          {
+                            "key": "28",
+                            "value": "Ascension (28) - Power Level (46200)"
+                          },
+                          {
+                            "key": "29",
+                            "value": "Ascension (29) - Power Level (49300)"
+                          },
+                          {
+                            "key": "30",
+                            "value": "Ascension (30) - Power Level (52500 + 3rd Exl.)"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "PerkBonus",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Perk Bonus:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "PerkBonus2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "${floor(2+(LVL/5))}$",
+                        "maxVal": "${floor(2+(LVL/5))}$",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "2",
+                  "layout": "rl",
+                  "type": "table"
+                },
+                {
+                  "key": "HP",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "HP:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Shield Points (ShP):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "ShP",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Stamina Points (SP):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "SP2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "${END*LVL}$",
+                        "allowRelative": true,
+                        "showControls": true,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "medium",
+                        "icon": "",
+                        "value": "Luck Points (LP):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "LP2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "${LCK*LVL}$",
+                        "allowRelative": true,
+                        "showControls": true,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Vitality Points (VP):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "VP2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "${STR*LVL}$",
+                        "allowRelative": true,
+                        "showControls": true,
+                        "type": "numberField"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "4",
+                  "layout": "rl",
+                  "type": "table"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Needs:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Required Food (lbs):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "ReqFood",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": true,
+                        "minVal": "${((Feet + Rounder)*0.5)-1}$",
+                        "maxVal": "${((Feet + Rounder)*0.5)-1}$",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      },
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Food Eaten (lbs):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "FoodEaten",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "${((Feet + Rounder)*0.5)-1}$",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Required Water (liters):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "ReqWater",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": true,
+                        "minVal": "${((Feet + Rounder)*0.5)-1}$",
+                        "maxVal": "${((Feet + Rounder)*0.5)-1}$",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      },
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Water Drank (liters):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "WaterDrank",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "${((Feet + Rounder)*0.5)-1}$",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Required Sleep (hours):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "SleepNeeded",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": true,
+                        "minVal": "0",
+                        "maxVal": "24",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      },
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Sleep slept (hours):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "SleepSlept",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "${SleepNeeded}$",
+                        "allowRelative": false,
+                        "showControls": false,
+                        "type": "numberField"
+                      }
+                    ]
+                  ],
+                  "cols": "4",
+                  "rows": "3",
+                  "layout": "rlll",
+                  "type": "table"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Hazards:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Hunger Level:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "HungerLevel",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "options": [
+                          {
+                            "key": "0",
+                            "value": "0"
+                          },
+                          {
+                            "key": "1",
+                            "value": "I"
+                          },
+                          {
+                            "key": "2",
+                            "value": "II"
+                          },
+                          {
+                            "key": "3",
+                            "value": "III"
+                          },
+                          {
+                            "key": "4",
+                            "value": "IV"
+                          },
+                          {
+                            "key": "5",
+                            "value": "V"
+                          },
+                          {
+                            "key": "6",
+                            "value": "VI"
+                          },
+                          {
+                            "key": "7",
+                            "value": "VII"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Thirst Level:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "ThirstLevel",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "options": [
+                          {
+                            "key": "0",
+                            "value": "0"
+                          },
+                          {
+                            "key": "1",
+                            "value": "I"
+                          },
+                          {
+                            "key": "2",
+                            "value": "II"
+                          },
+                          {
+                            "key": "3",
+                            "value": "III"
+                          },
+                          {
+                            "key": "4",
+                            "value": "IV"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Exhaustion Level:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "ExhaustionLevel",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "options": [
+                          {
+                            "key": "0",
+                            "value": "0"
+                          },
+                          {
+                            "key": "1",
+                            "value": "I"
+                          },
+                          {
+                            "key": "2",
+                            "value": "II"
+                          },
+                          {
+                            "key": "3",
+                            "value": "III"
+                          },
+                          {
+                            "key": "4",
+                            "value": "IV "
+                          },
+                          {
+                            "key": "5",
+                            "value": "V"
+                          },
+                          {
+                            "key": "6",
+                            "value": "VI"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Blood Toxin Level:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "BloodToxinLevel",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "options": [
+                          {
+                            "key": "0",
+                            "value": "0"
+                          },
+                          {
+                            "key": "1",
+                            "value": "I"
+                          },
+                          {
+                            "key": "2",
+                            "value": "II"
+                          },
+                          {
+                            "key": "3",
+                            "value": "III"
+                          },
+                          {
+                            "key": "4",
+                            "value": "IV "
+                          },
+                          {
+                            "key": "5",
+                            "value": "V"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Intoxication Level:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "IntoxicationLevel",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "options": [
+                          {
+                            "key": "0",
+                            "value": "0"
+                          },
+                          {
+                            "key": "1",
+                            "value": "I"
+                          },
+                          {
+                            "key": "2",
+                            "value": "II"
+                          },
+                          {
+                            "key": "3",
+                            "value": "III"
+                          },
+                          {
+                            "key": "4",
+                            "value": "IV "
+                          },
+                          {
+                            "key": "5",
+                            "value": "V"
+                          }
+                        ],
+                        "type": "select"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Arcane Diffusion Percentage:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "ArcaneDiffusionPercentage",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "100",
+                        "allowRelative": true,
+                        "showControls": true,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Insanity Percentage:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "InsanityPercentage",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "0",
+                        "size": "m-small",
+                        "allowDecimal": false,
+                        "minVal": "0",
+                        "maxVal": "100",
+                        "allowRelative": true,
+                        "showControls": true,
+                        "type": "numberField"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "7",
+                  "layout": "rl",
+                  "type": "table"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Resources:",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "title",
+                  "type": "label"
+                },
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Action Points (AP):",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "AP",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": "medium",
+                        "allowDecimal": false,
+                        "minVal": "${PB + AGLmod}$",
+                        "maxVal": "${PB + AGLmod}$",
+                        "allowRelative": true,
+                        "showControls": true,
+                        "type": "numberField"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Combat Sequence:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Mana:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Edge:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      }
+                    ]
+                  ],
+                  "cols": "4",
+                  "rows": "4",
+                  "layout": "rlll",
+                  "type": "table"
+                }
+              ],
+              "name": "Vitals",
+              "type": "tab"
+            },
+            {
+              "key": "CharacterNotes",
+              "cssClass": null,
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "contents": [
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "x-small",
+                        "icon": "",
+                        "value": "Backstory:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Backstory2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Appearance:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Appearance2",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Character Notes:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "CharacterNotes",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Reputation:",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "bold",
+                        "type": "label"
+                      },
+                      {
+                        "key": "Reputations",
+                        "cssClass": "",
+                        "label": "",
+                        "defaultValue": "",
+                        "size": null,
+                        "style": "dialog",
+                        "type": "textArea"
+                      }
+                    ],
+                    [
+                      {
+                        "key": "Limiter",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "full-size",
+                        "icon": "",
+                        "value": "Reset ",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "label",
+                        "type": "label"
+                      },
+                      {
+                        "key": "reset2",
+                        "cssClass": "",
+                        "label": null,
+                        "defaultValue": null,
+                        "size": "m-small",
+                        "icon": "",
+                        "value": "Reset",
+                        "rollMessage": "",
+                        "altRollMessage": "",
+                        "style": "label",
+                        "type": "label"
+                      }
+                    ]
+                  ],
+                  "cols": "2",
+                  "rows": "5",
+                  "layout": "rl",
+                  "type": "table"
+                }
+              ],
+              "name": "Character Notes",
+              "type": "tab"
+            },
+            {
+              "key": "Test",
+              "cssClass": null,
+              "contents": [
+                {
+                  "key": "RoundTest",
+                  "cssClass": "",
+                  "label": "Rounding Test",
+                  "defaultValue": "",
+                  "size": "full-size",
+                  "allowDecimal": false,
+                  "minVal": "${Feet + Rounder}$",
+                  "maxVal": "${Feet + Rounder}$",
+                  "allowRelative": false,
+                  "showControls": false,
+                  "type": "numberField"
+                }
+              ],
+              "name": "Test",
+              "type": "tab"
+            }
+          ],
+          "type": "tabbedPanel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [],
+      "key": "custom_body"
+    },
+    "display": {
+      "width": "1000",
+      "height": "1000",
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "attributeBar": {
+      "PB": {
+        "value": "${floor(2+(LVL/5))}$",
+        "max": "${floor(2+(LVL/5))}$"
+      }
+    }
+  },
+  "token": {
+    "name": "Alternative Format",
+    "img": "icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "Wastehunter": {
+      "version": "1.5.3"
+    },
+    "exportSource": {
+      "world": "testing-environment-2",
+      "system": "Wastehunter First Edition",
+      "coreVersion": "9.269",
+      "systemVersion": "1.5.3"
+    }
+  }
+}
